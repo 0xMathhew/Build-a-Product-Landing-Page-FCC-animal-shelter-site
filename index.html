@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+  
+  <header id="header">
+    
+    <img id="header-img" src="https://gist.githubusercontent.com/0xMathhew/7062006685433b00e5edb7ed354f7e6d/raw/514d77d7f82da5c27add4b5b5954dcb118e592f4/dogshelterlogo.svg" alt="Image of a dog standing on hinde legs in a form of logo">
+    
+    <nav id="nav-bar">
+      <a class="nav-link" href="#about-us">About us</a>
+      <a class="nav-link" href="#adoption-grid-section">Our Dogs</a>
+      <a class="nav-link" href="#contact-information">Contact</a>
+    </nav>
+    </header>
+
+    <main>
+
+    <form id="form"
+     action="https://www.freecodecamp.org/email-submit" method="GET" >
+
+      <div class="form-email">
+      <label for="email">Join our newsletter, new dogs for adoption every week</label>
+      <input id="email"
+       type="email"
+        name="email"
+        placeholder="Enter your email address"
+        required
+        >
+      </div>
+
+    <input id="submit"
+    type="submit"
+    value="Get Started">
+
+    </form>
+
+    <section class="about-us" id="about-us">
+      <h2 class="about-us-title">About Us</h2>
+      <h3 class="our-story">Our Story</h3>
+      <div class="our-story-block">
+      <p>In the winter of 2018, a severe cold snap hit our region, leaving local municipal facilities overwhelmed. A small group of neighborhood volunteers rallied together, opening up their own garages and barns to provide emergency shelter for a dozen stray and abandoned dogs. What was meant to be a temporary rescue mission quickly exposed a much larger, permanent need in our community. By the spring of 2019, those volunteers officially founded Dog Shelter.
+      </p>
+      <p>What began as a grassroots rescue network has since grown into a fully equipped, modern sanctuary dedicated to the rescue, rehabilitation, and rehoming of dogs in need. Over the past several years, we have expanded our facilities to include dedicated medical recovery spaces, enrichment play yards, and an active behavioral training program designed to help every dog put their best paw forward.</p>
+      </div>
+      <div class="our-mission-block">
+      <h3>Our Mission</h3>
+      <p>We believe that every dog, regardless of their past, age, or breed, deserves a safe haven and a dedicated advocate. Our work goes far beyond simply providing food and shelter; we are committed to holistic rehabilitation.</p>
+      
+      
+      <h4 class="mission-list-title">Every dog that enters our gates receives:</h4>
+      </div>
+
+      <div class="mission-list">
+
+      <ul>
+        <li>Comprehensive veterinary care and nutritional support.</li>
+        <li>Tailored behavioral assessments and socialization.</li>
+        <li>An active matchmaking process to ensure they find the perfect, permanent match for their unique personality and energy level.</li>
+      </ul>
+      </div>
+      <div class="mission-summary">
+
+      <p>We operate on the firm belief that a shelter shouldn't just be a temporary holding block, but a transformative bridge to a vibrant new life. Whether you are looking to adopt your first companion, volunteer your time, or support our medical fund, you are helping us write the next chapter of our story—and theirs.</p>
+      </div>
+    </section>
+
+    <figure>
+      <iframe id="video" src="https://www.youtube.com/embed/GIPUW6S3_P0" 
+      allowfullscreen
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      ></iframe>
+      <figcaption  class="video-description">Video of dogs</figcaption>
+    </figure>
+
+    <section class="adoption-grid-section" id="adoption-grid-section">
+      <h2>Waiting for adoption:</h2>
+
+      <div class="grid-container">
+
+        <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/8445f0a1b4806aa8d2abfe1bd48c1892/raw/7c294840553c16e94ee3ed3947cfe75f4181d88a/jack-russell-terrier.svg" alt="Portrait of Jack Russell Terrier">
+          </div>
+        <div class="card-content">
+          <h3>Miki</h3>
+          <p class="dog breed">Jack Russell Terrier</p>
+          <p class="dog-age">5 years old</p>
+          <p class="dog-temperament">Playfull, good with kids and other dogs</p>
+          <button class="adopt-btn">Adopt me</button>
+        </div>
+        </div>
+
+         <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/495ceca5ee60789571c95e0fd23982de/raw/d54743def6eb2b457559b51e68409375a1e54239/american-eskimo.svg" alt="Portrait of American Eskimo">
+          </div>
+        <div class="card-content">
+          <h3>King</h3>
+          <p class="dog breed">American Eskimo</p>
+          <p class="dog-age">3 years old</p>
+          <p class="dog-temperament">Playfull, good with kids and other dogs</p>
+          <button class="adopt-btn">Adopt me</button>
+        </div>
+        </div>
+         
+         <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/994156bef9a31da0232f451d1c486e70/raw/3c9a3de1209dab2d7b20f9f52619524ff49964c3/belgian-malinoa-portrait.svg" alt="Portrait of Belgian Malinoa">
+          </div>
+        <div class="card-content">
+          <h3>Lighting</h3>
+          <p class="dog breed">Belgian Malinoa</p>
+          <p class="dog-age">4 years old</p>
+          <p class="dog-temperament">Higly energetic, focused on task at hand</p>
+          <button class="adopt-btn">Adopt me</button>
+        
+        </div>
+        </div>
+        <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/256e12fea2143a7651882869e84bd76a/raw/e569e1d327183684e3dddc9c4c78c51e12ff6b7c/german-shephard-portrait.svg" alt="Portrait of German Shephard">
+          </div>
+        <div class="card-content">
+          <h3>Azor</h3>
+          <p class="dog breed">German Shephard</p>
+          <p class="dog-age">8 years old</p>
+          <p class="dog-temperament">Loyal, good with people</p>
+          <button class="adopt-btn">Adopt me</button>
+        </div>
+        </div>
+
+        <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/79b7fe517794a1086b5c696c431c8d22/raw/29aa64cf737ee0d34ec458ad5e9a5937bf1ca3dd/jack-russell-parson-portrait.svg" alt="Portrait of Jack Russell Parson">
+          </div>
+        <div class="card-content">
+          <h3>Bolt</h3>
+          <p class="dog breed">Jack Russell Parson</p>
+          <p class="dog-age">2 years old</p>
+          <p class="dog-temperament">Playfull, good with kids and other dogs</p>
+          <button class="adopt-btn">Adopt me</button>
+        </div>
+        </div>
+
+        <div class="dog-card">
+          <div class="dog-portrait">
+            <img src="https://gist.githubusercontent.com/0xMathhew/8b414eb0b45663473d31679f1babdcf0/raw/892a852d2d40a5785394bf03e2d2db85418b9be6/poodle-portrait.svg" alt="Portrait of Poodle">
+          </div>
+        <div class="card-content">
+          <h3>Jungle</h3>
+          <p class="dog breed">Poodle</p>
+          <p class="dog-age">1 years old</p>
+          <p class="dog-temperament">Playfull, good with kids and other dogs</p>
+          <button class="adopt-btn">Adopt me</button>
+        </div>
+
+        </div>
+        </div>
+
+
+    
+
+    </section>
+
+    </main>
+    <hr></hr>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="dogs-images">
+          <img src="https://gist.githubusercontent.com/0xMathhew/a842ae778caf2049fb0d0887cbc679dc/raw/e7586e2cff457640307de4366a3ea3b6526a158c/golder-retriever.svg" alt="sitting golden retriever">
+          <img src="https://gist.githubusercontent.com/0xMathhew/17dca8541611e1e86a0d70f8ea4c9ce9/raw/f47d96eb86c22e025970579732021d0202c15ee5/belgian-malinois-cartonish.svg" alt="running belgian malinois">
+          <div class="footer-info">
+            <p><a
+            class="back-to-top" href="#header">Back to top</a></p>
+            <p id="contact-information" class="footer-text">Created by: Mateusz Lebioda</p>
+          </div>
+          <img src="https://gist.githubusercontent.com/0xMathhew/d72f02c2615c3ec9d5f8655155f51993/raw/968e3f3040a1a53ce2e9d9ecb49f39c49c88901f/german-shephard.svg" alt="running german shephard">
+          <img src="https://gist.githubusercontent.com/0xMathhew/8445f0a1b4806aa8d2abfe1bd48c1892/raw/7c294840553c16e94ee3ed3947cfe75f4181d88a/jack-russell-terrier.svg" alt="from the front photo of jack russell terrier">
+        </div>
+
+        
+      </div>
+    </footer>
+
+</body>
+
+</html>
